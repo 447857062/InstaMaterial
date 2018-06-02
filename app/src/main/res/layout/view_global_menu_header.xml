@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ic_inbox_white"
+    android:clickable="true">
+
+    <LinearLayout
+        android:id="@+id/vGlobalMenuHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivMenuUserProfilePhoto"
+            android:layout_width="@dimen/global_menu_avatar_size"
+            android:layout_height="@dimen/global_menu_avatar_size"
+            android:layout_margin="12dp" />
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="froger_mcs"
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/style_color_primary"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:layout_margin="16dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_global_menu_search"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="bottom"
+        android:background="#dddddd" />
+</FrameLayout>
