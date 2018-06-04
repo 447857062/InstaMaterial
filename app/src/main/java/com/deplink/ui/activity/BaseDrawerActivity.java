@@ -44,9 +44,6 @@ public class BaseDrawerActivity extends BaseActivity {
         bindViews();
         setupHeader();
     }
-
-   
-
     @Override
     protected void setupToolbar() {
         super.setupToolbar();
